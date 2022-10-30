@@ -17,15 +17,10 @@
   &__logo {
     flex-grow: 1;
     @include title;
-    transition: all 0.5s ease-in;
-    &:hover{
-      background-color: red;
-      color: #fff;
-    }
   }
- 
- 
- 
+  &__logo :hover{
+    color: red($color: #000000)
+  }
 
   &__link {
     @include text-decaration;
